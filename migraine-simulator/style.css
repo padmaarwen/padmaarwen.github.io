@@ -1,0 +1,36 @@
+@font-face {
+  font-family: ransom; /* set name */
+  src: url(fonts/doctor_punk.otf); /* url of the font */
+}
+
+@font-face {
+  font-family: romantic; /* set name */
+  src: url(fonts/romantic.ttf); /* url of the font */
+}
+
+html, body {
+  margin: 0;
+  padding: 0px;
+}
+canvas {
+  display: block;
+}
+
+.buttonQ {
+  font-size: 48px;
+  font-family: ransom;
+  color: rgba(0,129,255, 1);
+  background-color: rgba(255,0,99, 0.75);
+  border-style: none;
+  border-radius: 10px;
+}
+
+.buttonA {
+  font-size: 36px;
+  font-family: romantic;
+  letter-spacing: 3px;
+  color: rgba(255,0,99, 1);
+  background-color: rgba(0,129,255, 0.75);
+  border-style: none;
+  border-radius: 10px;
+}
